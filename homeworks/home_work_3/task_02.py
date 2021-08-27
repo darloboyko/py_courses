@@ -6,7 +6,7 @@ k1 = float(input("Enter k1:  "))
 k2 = float(input("Enter k2:  "))
 
 s = round(0.5*(k1 * k2), 1)
-p = round(k1 + k2 + (k1 + k2)**1/2, 2)
+p = round((k1 + k2 + (((k1**2) + (k2**2))**0.5)), 2)
 
 print("Squares", s, "mm2")
 
