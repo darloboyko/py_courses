@@ -10,11 +10,11 @@ c = float(input("Enter c:  "))
 
 p = (a + b + c) / 2
 
-S = round(((p * (p-a) * (p-b) * (p-c))**0.5), 2)
+S = ((p * (p-a) * (p-b) * (p-c))**0.5)
 print(S)
 
-S = round(pow((p * (p-a) * (p-b) * (p-c)), 1/2), 2)
+S = pow((p * (p-a) * (p-b) * (p-c)), 1/2)
 print(S)
 
-S = round(math.pow((p * (p-a) * (p-b) * (p-c)), 1/2), 2)
+S = math.pow((p * (p-a) * (p-b) * (p-c)), 1/2)
 print(S)
