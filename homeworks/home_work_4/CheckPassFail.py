@@ -11,4 +11,4 @@ if mark >= 50:
 else: 
     print("FAIL")
 
-print("DONE")
+print("DONE \n")

@@ -10,4 +10,4 @@ if number%2 == 1:
 else:
  print("Even Number")  
  
-print("BYE")
+print("BYE \n")

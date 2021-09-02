@@ -23,4 +23,4 @@ elif number == 8:
 elif number == 9:
  print("NINE")
 else:
- print("OTHER")
+ print("OTHER \n")
