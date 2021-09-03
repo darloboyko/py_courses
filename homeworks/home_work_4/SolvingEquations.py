@@ -6,9 +6,10 @@
 a = float(input("a:  "))
 b = float(input("b:  "))
 
-if a == 0 or b == 0:
-    x = 0
-    print(x)
+if a == 0 and b == 0:
+    print("Endless number of solutions")
+elif a == 0 and b != 0:
+    print("No solution")
 else:
     x = -b/a
     print("x =", x)
