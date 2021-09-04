@@ -1,5 +1,5 @@
 
-scores = int(input("Enter scores:  "))
+scores = float(input("Enter scores:  "))
 
 if  90 <= scores <= 100:
     print("Grade: A")
@@ -13,7 +13,10 @@ elif  70 <= scores < 80:
 elif  60 <= scores < 70:
     print("Grade: D")
 
+elif  0 <= scores < 60:
+    print("Grade: D")
+
 else:
-   print("Grade: F")
+   print("Error")
 
 
