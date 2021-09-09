@@ -2,9 +2,9 @@
 #Список задать в самой программе в виде: list = [1, 5, 68, 0]
 #В нем может быть сколько угодоно элементов
 
-list = [23, 45, 65, 4, 2, 87, 95]
+lst = [23, 45, 65, 4, 2, 87, 95]
 
-sum = 0
-for i in list:
-     sum += i
-print(f"Sum of all numbers in the list: {sum}")
+sum_numbers = 0
+for i in lst:
+     sum_numbers += i
+print(f"Sum of all numbers in the list: {sum_numbers}")

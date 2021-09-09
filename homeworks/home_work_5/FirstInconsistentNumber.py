@@ -5,11 +5,11 @@
 #Ответом будет число 6
 #Если весь список последователен, вывести соответствующее сообщение
 
-list = [2, 3, 4, 5, 6, 7, 8]
+lst = [2, 3, 4, 5, 6, 7, 8]
 
-for i in range(1, len(list)):
-  if list[i] - list[i-1] != 1:
-    print(list[i])
+for i in range(1, len(lst)):
+  if lst[i] - lst[i-1] != 1:
+    print(lst[i])
     break
 else:    
   print("весь список последователен")   

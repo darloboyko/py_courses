@@ -2,11 +2,11 @@
 #Список задать в самой программе в виде: list = [1, 5, 68, 0]
 #В нем может быть сколько угодоно элементов
 
-list =[9, 15, 1, 8, 24, 13]
+lst =[9, 15, 1, 8, 24, 13]
 
-min = list[0]
+min_numbers = lst[0]
 
-for i in list:
-  if i < min:
-    min = i
-print(min)
+for i in lst:
+  if i < min_numbers:
+    min_numbers = i
+print(min_numbers)
