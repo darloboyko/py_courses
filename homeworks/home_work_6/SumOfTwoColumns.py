@@ -7,8 +7,7 @@ row_1 = [1, 2, 5, 6]
 row_2 = [11, 5, 5, 7]
 
 if len(row_1) == len(row_2): 
-    row_sum = sum(row_1)+sum(row_2)
-    print("|",sum(row_1),"|",sum(row_2),"|", row_sum, "|")
+    print("|",sum(row_1),"|",sum(row_2),"|", sum(row_1)+sum(row_2), "|")
 elif len(row_1) > len(row_2):
     print("The row_1 biggest")
 else:
