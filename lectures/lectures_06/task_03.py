@@ -6,3 +6,8 @@ while a >= 0:
     a -= 1
 
 print(lst)
+
+for i in range(0, a+1):
+    lst.append(i)
+    lst.reverse()
+print(lst)

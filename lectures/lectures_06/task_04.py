@@ -1,5 +1,9 @@
-a = "dfgjjgk dfjhgkml"
+s = input('Enter string: ')
 
-list(a)[1: len(a)-1]
-print(list(a))
-list(a).pop(0).pop(-1)
+#list(s)[1: len(s)-1]
+#print(list(s))
+
+list_str = list(s)
+list_str.pop(0)
+list_str.pop(-1)
+print(list_str)
