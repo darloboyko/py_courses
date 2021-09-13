@@ -3,5 +3,4 @@
 #Пример: "This is some test STRING"
 #Ответ: "This Is Some Test String"
 
-s = input("Enter string: ").title()
-print(s)
+print(input("Enter string: ").title())
