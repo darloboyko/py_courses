@@ -5,8 +5,9 @@
 #Сделать проверку на количество введенных слов (должно быть точно 2), 
 # а также проверку, что введенный текст валидный (что там нет цифр)
 
-first_last_name = input("Enter First Name and Last Name: ")
+first_last_name = input("Enter First Name and Last Name: ").title()
+
 if len(first_last_name.split()) == 2 and first_last_name.replace(' ', "").isalpha(): 
-    print(list(first_last_name.split()[0])[0], list(first_last_name.split()[1])[0], sep=".", end=".")
+    print(first_last_name.split()[0][0], first_last_name.split()[1][0], sep=".", end=".")
 else:
     print("Error")   
