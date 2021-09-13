@@ -4,6 +4,4 @@
 a = input("Enter string: ")
 b = input("Enter letter: ")
 
-c = a.replace(b, "")
-
-print(c)
+print(a.replace(b, ""))
