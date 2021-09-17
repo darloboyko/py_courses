@@ -2,16 +2,13 @@
 # Заменить минимальный элемент в этом списке на это среднее арифметическое
 
 
-lst = [1, -3, 4, 45, 47, 7, -55, 23, 11, -15, -13, 22, -35]
+lst = [1, -300, 4, 45, -70, 7, -55, 23, 11, -15, -130, 22, -35]
 new_list_neg = []
-for i in range(len(lst)):
-    if lst[i]<0:
-        new_list_neg.append(lst[i])
-        mid_sum = round((sum(new_list_neg)/len(new_list_neg)), 1)
-        print(mid_sum)
-    if min(lst) == lst[i]:
-        lst[i] = mid_sum
-        break
-print(lst)
 
+for i in lst:
+    if i<0:
+        new_list_neg.append(i)
+        mid_sum = round((sum(new_list_neg)/len(new_list_neg)), 1)
+lst[lst.index(min(lst))] = mid_sum
+print(lst)
 
