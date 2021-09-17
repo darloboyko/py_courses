@@ -10,8 +10,8 @@ import random
 secret_number = random.randint(1, 50)
 your_number = 0
 i = 6
-
-while your_number !=  secret_number:
+print(secret_number)
+while your_number !=  secret_number and i != 0:
     while i != 0:
         your_number = int(input(f"You have {i} attempts left. Enter a number from 1 to 50: "))
         if 1 <= your_number <= 50:
@@ -26,4 +26,5 @@ while your_number !=  secret_number:
         else:
             print("Error")
             break  
-    break   
+    else:
+        print("Losing")   

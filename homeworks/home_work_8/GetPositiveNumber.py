@@ -9,9 +9,7 @@ new_list_poz = []
 for n in range(len(lst)):
     if lst[n]>0:
         new_list_poz.append(lst[n])
-new_list_poz = (new_list_poz)
 print(new_list_poz[0]*new_list_poz[2]*new_list_poz[5])
-
        
      
 
