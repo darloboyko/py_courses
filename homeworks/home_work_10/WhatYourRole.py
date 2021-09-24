@@ -9,6 +9,7 @@
 #"Hello, <role>"
 #Если имени нет в списках, вывести:
 #"Hello, Guest"
+
 user_name = str(input("Enter you name: "))
 
 roles = {
@@ -17,15 +18,24 @@ roles = {
   'manager' : ['Pedro', 'Ron'], 
   'developer' : ['Tuk', 'Gek', 'Kuk']
 }
-for k, v in roles.items():
+exit = False
+
+for k,v in roles.items():
     for i in v:
         if i == user_name:
           print(f"Hello, {k}")
-          break
-        
+          exit = True    
+if not exit:
+    print("Hello, Guest")
 
 
- 
+
+
+
+
+
+
+    
        
        
 
