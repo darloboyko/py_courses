@@ -19,6 +19,9 @@ def cube_times(times):
     rethalt.append(min_el)
     return tuple(rethalt)   
 
+#def cube_times(times):
+#   return (round((sum(times) - (min(times) + max(times)))/3 , 2), min(times))
+
 
 print(cube_times([9.5, 7.6, 11.4, 10.5, 8.1])) 
 #(9.37, 7.6))
