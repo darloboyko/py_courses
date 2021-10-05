@@ -30,5 +30,5 @@ word = str(input("Word: "))
 
 print(comfortable_word(word))  
 print(comfortable_word("lalalalalalalal"))
-print(comfortable_word("A big brown fox caught a123456123!@#$ bad bunn"))
-print(comfortable_word("A big brown fox caught a bad rabbit"))
+print(comfortable_word("qwerty"))
+print(comfortable_word("qazplmasdlkj"))
