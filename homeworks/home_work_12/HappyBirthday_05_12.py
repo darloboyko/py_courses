@@ -16,7 +16,6 @@ def wrap(height, width, length):
     return 2*max(list(p))+4*min(list(p))+2*(sum(list(p))-(max(list(p))+min(list(p))))+20
 
 
-
 height = int(input("Enter height: "))
 width = int(input("Enter width: "))
 length = int(input("Enter length: "))
