@@ -20,6 +20,7 @@ def spiral_sum(size):
         size -= 4
     return whole_spiral + iter
 
+
 size = int(input("Number: "))
 
 print(spiral_sum(size)) 
