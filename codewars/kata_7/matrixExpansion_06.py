@@ -27,16 +27,23 @@
 #n: number of expansions
 #https://www.codewars.com/kata/614adaedbfd3cf00076d47de/train/python
 
-def expansion(matrix, n): 
-    for i in range(len(matrix+n)):         
-        for j in range(len(matrix[i])):  
-            print(matrix[i][j], end = ' ') 
+def expansion(matrix, n=0): 
+    for i in range(len(matrix)):
+        print(i)
+        matrix[i].append(sum(matrix[i]))
+        
+   # for i in range(len(matrix)+1+n): 
+        #print(i)
+      #  matrix.append(list(map(sum, zip(matrix[i],matrix[i+n]))))
+        #matrix[len(matrix)-1][len(matrix)-1] = matrix[0][0]+matrix[len(matrix)-2][len(matrix)-2]
+        #print(len(matrix))        
     return print(matrix)
 
 
 matrix = [
-    [1, 3]
-    [2, 5]
+    [1, 3, 4],
+    [2, 5, 6],
+    [5, 2, 1]
 ]
 n = int(input("Enter number: "))
 
